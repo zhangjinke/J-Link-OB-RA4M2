@@ -1,0 +1,5 @@
+在J-Link Commander中输入exec setsn=xxxxxxxx
+注意：只有在序列号为-1的时候才能使用此命令烧写序列号
+
+新版驱动不再支持此命令，可使用老版驱动（比如V664b）或者将序列号按照小端对其写入bin文件，地址如下：
+0x6000~0x6003（J-Link OB-RA4M2-Full）
